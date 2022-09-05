@@ -1,5 +1,5 @@
-Passenger1,Cessna 172,20,100,12000
-Fighter,Harrier,225,5000,500000
-Tranier,T45,125,200,35000
-Cargo,Airbus 330,560,78000,50000
-Passenger2,AirbusA350,250,8100,30000
+Cessna, 172, 200, 1000000
+Harrier, 225, 500, 500000
+Tranier, 125, 200, 35000
+Cargo, 330, 780, 50000
+AirbusA350, 250, 810, 30000
