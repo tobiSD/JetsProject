@@ -15,14 +15,12 @@ import com.skilldistillery.jets.entities.JetImpl;
 
 public class JetsApplication {
 
-	private static final char[] a = null;
-
 	public static void main(String[] args) {
 		JetsApplication japp = new JetsApplication();
 		ArrayList<Jet> jetList = new ArrayList<Jet>();
 		japp.readFromFile(jetList);
-		AirField airfield = new AirField();
-		japp.menuOptions(airfield, jetList);
+		AirField airfield2 = new AirField();
+		japp.menuOptions(airfield2, jetList);
 	}
 
 	public void menuOptions(AirField airfield, ArrayList<Jet> jetList) {
@@ -83,9 +81,9 @@ public class JetsApplication {
 		System.out.println(" " + fastestJet.toString());
 	}
 
-	public void flyJets(AirField airfield, ArrayList<Jet> jetList) {
+	public void flyJets(AirField airfield, ArrayList<Jet> getjetList) {
 
-		for (Jet jet : jetList) {
+		for (Jet jet : getjetList) {
 			jet.fly();
 		}
 	}

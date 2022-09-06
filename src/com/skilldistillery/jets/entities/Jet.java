@@ -106,7 +106,15 @@ import java.util.Objects;
 
 public abstract class Jet {
 	
+	private String name;
+	private String model;
+	private double speed;
+	private int range;
+	private long price;
+
+	
 	public Jet(String name, String model, double speed, int range, long price) {
+		super();
 		this.name = name;
 		this.model = model;
 		this.speed = speed;
@@ -117,14 +125,7 @@ public abstract class Jet {
 	public Jet() {
 		super();
 	}
-	
-
-	private String name;
-	private String model;
-	private double speed;
-	private int range;
-	private long price;
-	
+		
 	public String getName() {
 		return name;
 	}

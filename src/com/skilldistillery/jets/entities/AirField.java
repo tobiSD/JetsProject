@@ -8,6 +8,8 @@ public class AirField {
 	
 	// collection of jets
 	private ArrayList<Jet> jetList;
+	
+	
 		
 	public ArrayList<Jet> getJetList() {
 		return jetList;
@@ -18,8 +20,8 @@ public class AirField {
 	}
 
 	public AirField() {
-		
 	}
+	
 	
 	//display jets for each Jet
 	public void jets(ArrayList<Jet> jetList) {
