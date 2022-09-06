@@ -1,30 +1,31 @@
 package com.skilldistillery.jets.entities;
 
 
-import java.util.List;
+import java.util.ArrayList;
 
 
 public class AirField {
+	
 	// collection of jets
-	private List<Jet> jetlist;
-
-	// add jets to array
-	public AirField() {
-
+	private ArrayList<Jet> jetList;
+		
+	public ArrayList<Jet> getJetList() {
+		return jetList;
 	}
 	
-	//getters and setters
-	public List<Jet> getJetlist() {
-		return jetlist;
+	public void setJetList(ArrayList<Jet> jetList) {
+		this.jetList = jetList;
 	}
 
-	public void setJetlist(List<Jet> jetlist) {
-		this.jetlist = jetlist;
+	public AirField() {
+		
 	}
-
-	@Override
-	public String toString() {
-		return "AirField [jetlist=" + jetlist + "]";
+	
+	//display jets for each Jet
+	public void jets(ArrayList<Jet> jetList) {
+		for(Jet jet : jetList) {
+			System.out.println(jet);
+			System.out.println();
+		}
 	}
-
 }

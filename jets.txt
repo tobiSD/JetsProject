@@ -1,5 +1,5 @@
-Cessna, 172, 200, 1000000
-Harrier, 225, 500, 500000
-Tranier, 125, 200, 35000
-Cargo, 330, 780, 50000
-AirbusA350, 250, 810, 30000
+Fighter, Cessna, 172, 200, 1000000
+Fighter, Harrier, 225, 500, 500000
+Fighter, Tranier, 125, 200, 350000
+Cargo, Airbus, 250, 810, 300000
+Cargo, Cargo, 330, 780, 500000
